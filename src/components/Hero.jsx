@@ -5,8 +5,12 @@ import Typewriter from 'typewriter-effect';
 import me from '../assets/me2.jpg'
 function Hero() {
   return (
-    <Flex gap={6} width={'98vw'} direction={'column'}   justifyContent={'center'} height={'full'} alignItems={'center'} zIndex={20} position={'relative'} backdropFilter={'blur(4px)'} bgGradient={'linear(to-bl,rgb(30 41 59),rgb(41 37 36))'} rounded={'4rem'}>
-  <Flex opacity={1} direction={'column'} justifyContent={'center'} alignItems={'center'}>
+    <Flex
+         
+     gap={6} width={'98vw'} mt={20} direction={'column'}   justifyContent={'center'} height={'95vh'} alignItems={'center'} zIndex={20} position={'relative'} backdropFilter={'blur(4px)'} bgGradient={'linear(to-bl,rgb(30 41 59),rgb(41 37 36))'} rounded={'4rem'}>
+  <Flex
+
+   direction={'column'} justifyContent={'center'} alignItems={'center'}>
    <Image objectFit={'cover'} src={me} w={64} height={64} rounded={'4rem'}/>
     <Text fontSize={'4xl'} fontStyle={'light'} color={'white'} fontWeight={'bold'}>LOVEBIN JOSEPH ROBIN</Text>
     <Text brightness={'40%'} contrast={'0%'} color={'#60a5fa'} letterSpacing={'0.025em'} fontSize={'2xl'} textAlign={'match-parent'}>
