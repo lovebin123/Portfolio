@@ -1,3 +1,21 @@
 svg:hover{
     fill: #60a5fa;
 }
+.gameboy {
+    animation-name: movement;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes movement {
+   0%{
+    transform: translateY(20px);
+   }
+   50%{
+    transform: translateY(-20px);
+   }
+   100%{
+    transform: translateY(20px);
+   }
+}
