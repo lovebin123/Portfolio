@@ -11,7 +11,7 @@ function Hero() {
 
    direction={'column'} justifyContent={'center'} alignItems={'center'}>
    <Image objectFit={'cover'} src={me} w={64} height={64} rounded={'4rem'}/>
-    <Text fontSize={'4xl'} fontStyle={'light'} color={'white'} fontWeight={'bold'}>LOVEBIN JOSEPH ROBIN</Text>
+    <Text fontSize={'5xl'} fontStyle={'light'} color={'white'} fontWeight={'bold'}>LOVEBIN JOSEPH ROBIN</Text>
     <Text brightness={'40%'} contrast={'0%'} color={'#60a5fa'} letterSpacing={'0.025em'} fontSize={'2xl'} textAlign={'match-parent'}>
        <Typewriter options={{
         strings:['Tech Enthusiast','Frontend Developer'],

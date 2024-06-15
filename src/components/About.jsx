@@ -9,8 +9,8 @@ import gameboy from '../assets/gameboy3.png'
 function About() {
   
   return (
-    <Flex w={'full'} h={'full'} direction={'column'} gap={40}>
-    <Flex justifyContent={'space-between'} px={20} position={'sticky'} top={0} zIndex={40} >
+    <Flex w={'full'} h={'full'} direction={'column'} gap={32}>
+    <Flex justifyContent={'space-between'} px={20} position={'sticky'} top={0} zIndex={40} bgColor={'black'} >
         <Flex   alignItems={'center'} gap={3}>
    <Image objectFit={'cover'} src={me} w={20} height={20} rounded={'1rem'}/>
           <Text fontSize={'2xl'} display={'inline-block'} whiteSpace={'nowrap'} color={'white'}>LOVEBIN JOSEPH ROBIN</Text>
@@ -40,7 +40,7 @@ function About() {
         </Flex>
         <Flex overflow={'hidden'} position={'relative'}   justifyContent={'flex-end'} >
       <Image  filter={"brightness(100%) "} className='gameboy'  w={'50rem'} src={gameboy} position={'relative'} left={80}></Image>
-      <Text as={'sub'} color={'white'}  transform={'rotate(90deg) translateY(270px)'}  >20's kids Nostalgia</Text>
+      <Text as={'sub'} color={'gray.500'}  transform={'rotate(90deg) translateY(270px)'}  >20's kids Nostalgia</Text>
       </Flex>
         </Flex>
     </Flex>
