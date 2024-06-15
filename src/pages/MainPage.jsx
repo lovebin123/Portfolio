@@ -5,12 +5,11 @@ import About from '../components/About'
 import { Fade, ScaleFade, Slide, SlideFade, Collapse } from '@chakra-ui/react'
 function MainPage() {
   return (
-   <Flex gap={8}   h={'100vh'} zIndex={30} background={'black'} justifyContent={'center'}  alignItems={'center'} w={'full'} direction={'column'} p={0} pb={1} pt={10} overflowY={'auto'} overflowX={'hidden'} position={'relative'}>  
-   <Flex opacity={1}>
+   <Flex gap={8}   h={'100vh'} zIndex={30} background={'black'}  w={'full'} direction={'column'} p={0} pb={1} pt={6} overflowY={'auto'} overflowX={'hidden'} >  
+   <Flex opacity={1} alignItems={'center'} justifyContent={'center'} direction={'column'}>
     <Hero/>
     </Flex>
-    <Flex aspectRatio={11/12} zIndex={20} mx={'auto'}>
-
+    <Flex aspectRatio={11/12} zIndex={20}>
     <About/>
     </Flex>
    </Flex>
