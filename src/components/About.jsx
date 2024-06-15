@@ -40,7 +40,7 @@ function About() {
         </Flex>
         <Flex overflow={'hidden'} position={'relative'}   justifyContent={'flex-end'} >
       <Image  filter={"brightness(100%) "} className='gameboy'  w={'50rem'} src={gameboy} position={'relative'} left={80}></Image>
-      <Text as={'sub'} color={'white'}  transform={'rotate(90deg) translateY(270px)'}  >20's kid Gameboy</Text>
+      <Text as={'sub'} color={'white'}  transform={'rotate(90deg) translateY(270px)'}  >20's kids Nostalgia</Text>
       </Flex>
         </Flex>
     </Flex>
