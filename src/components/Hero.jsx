@@ -6,7 +6,7 @@ import me from '../assets/me2.jpg'
 function Hero() {
   return (
     <Flex
-     gap={6} width={'92vw'}  direction={'column'}   justifyContent={'center'} height={'95vh'}  zIndex={20} position={'relative'} backdropFilter={'blur(4px)'} bgGradient={'linear(to-bl,rgb(30 41 59),rgb(41 37 36))'} rounded={'4rem'}>
+     gap={6} width={'96vw'}  direction={'column'}   justifyContent={'center'} height={'95vh'}  zIndex={20} position={'relative'} backdropFilter={'blur(4px)'} bgGradient={'linear(to-bl,rgb(30 41 59),rgb(41 37 36))'} rounded={'4rem'}>
   <Flex
 
    direction={'column'} justifyContent={'center'} alignItems={'center'}>

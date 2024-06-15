@@ -19,3 +19,17 @@ svg:hover{
     transform: translateY(20px);
    }
 }
+.texter{
+
+}
+@keyframes movement {
+   0%{
+    transform: translateY(20px);
+   }
+   50%{
+    transform: translateY(-20px);
+   }
+   100%{
+    transform: translateY(20px);
+   }
+}
