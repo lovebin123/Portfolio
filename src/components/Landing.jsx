@@ -3,7 +3,7 @@ import React from 'react'
 import Typewriter from 'typewriter-effect';
 
 import me from '../assets/me2.jpg'
-function Hero() {
+function Landing() {
   return (
     <Flex
      gap={6} width={'96vw'}  direction={'column'}   justifyContent={'center'} height={'95vh'}  zIndex={20} position={'relative'} backdropFilter={'blur(4px)'} bgGradient={'linear(to-bl,rgb(30 41 59),rgb(41 37 36))'} rounded={'4rem'}>
@@ -24,4 +24,4 @@ function Hero() {
   )
 }
 
-export default Hero
+export default Landing
