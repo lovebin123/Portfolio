@@ -1,6 +1,14 @@
 import React from 'react'
 import { Flex,Text,Image, Link } from '@chakra-ui/react'
+import Carousal from './Carousal/Carousal'
+import mec1 from '../../assets/mec1.jpg'
+import mec2 from '../../assets/mec2.jpg'
+import mec3 from '../../assets/mec3.jpg'
+import mec4 from '../../assets/mec4.jpg'
+import mec5 from '../../assets/mec5.jpg'
+
 function MecSphere() {
+    const images=[mec1,mec2,mec3,mec4,mec5]
   return (
     <Flex px={4}   direction={'column'} mt={8}>
         <Text color={'#60a5fa'}>Mini Project</Text>
@@ -29,9 +37,10 @@ function MecSphere() {
             <Text color={'#2dd4bf'}>SocketIO</Text>
           </Flex>
         </Flex>
-        <Flex gap={4} mt={8}>
-        <Text letterSpacing={' 0.025em'}  color={'white'}>MECSphere is a dynamic web application designed to address the needs of college communities by providing a comprehensive platform for students, alumni, and administrators to connect, share resources, and advance their careers. With features such as user registration, resource exchange,real-time messaging, and alumni connections, MECSphere aims to foster seamless engagement and knowledge-sharing among its users. The platform’s robust career hub facilitates access to internship opportunities, job postings, and alumni mentors, empowering students to make informed career decisions and succeed in their professional endeavors.
+        <Flex  mt={8} alignItems={'center'} gap={10}>
+        <Text letterSpacing={' 0.050em'} color={'white'}>MECSphere is a dynamic web application designed to address the needs of college communities by providing a comprehensive platform for students, alumni, and administrators to connect, share resources, and advance their careers.<br></br><br></br> With features such as user registration, resource exchange,real-time messaging, and alumni connections, MECSphere aims to foster seamless engagement and knowledge-sharing among its users. The platform’s robust career hub facilitates access to internship opportunities, job postings, and alumni mentors, empowering students to make informed career decisions and succeed in their professional endeavors.
 </Text>
+<Carousal  images={images}/>
         </Flex>
 
     </Flex>

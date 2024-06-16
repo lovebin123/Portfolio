@@ -15,7 +15,7 @@ const ProjectCard = ({ imgSrc, projectTitle, projectSubtitle, ModalContentCompon
         _hover={{
           '.topone':{borderColor: '#60a5fa'},
           '.hoverClass': { color: 'blue.500' },
-          '.bgChanger': { bgColor: 'rgb(207 250 254)' },
+          '.bgChanger': { bgColor: '#67e8f9' },
         }}
         onClick={onOpen}
       >
@@ -37,9 +37,9 @@ const ProjectCard = ({ imgSrc, projectTitle, projectSubtitle, ModalContentCompon
             h={'full'}
             src={imgSrc}
           />
-          <Flex position={'absolute'} bottom={4} left={5}>
+          <Flex position={'absolute'} bottom={4} left={5} >
             <Flex
-              p={2}
+               px={4} py={2}
               position={'relative'}
               direction={'column'}
               className='bgChanger'
@@ -62,7 +62,7 @@ const ProjectCard = ({ imgSrc, projectTitle, projectSubtitle, ModalContentCompon
         </Flex>
       </Flex>
 
-      <Modal isOpen={isOpen} size={'6xl'}  onClose={onClose} >
+      <Modal isCentered isOpen={isOpen} size={'6xl'}  onClose={onClose} >
         <ModalOverlay />
         <ModalContent rounded={'4em'}  w={'full'} minH={'100vh'}  bgGradient={'linear(to-bl, rgb(15 23 42), rgb(28 25 23))'}>
           <ModalCloseButton />

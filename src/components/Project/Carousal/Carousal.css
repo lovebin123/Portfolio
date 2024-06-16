@@ -1,0 +1,34 @@
+
+  .carousel-images {
+    width: 40vw;
+    height: 42vh;
+    overflow: hidden;
+    
+  }
+  
+  .carousel-image {
+    border-radius: 10px;
+    width: 40vw;
+  }
+  
+  .carousel-indicator {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #bae6fd; /* White background for dots */
+    cursor: pointer;
+    border: 2px solid #000;
+    overflow: hidden;
+  }
+  
+  .dot.active {
+    background-color: #0ea5e9; 
+    
+  }
+  
