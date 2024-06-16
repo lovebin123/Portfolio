@@ -5,7 +5,6 @@ import MECSphere from './MecSphere.jsx'
 import FaceFindr from './FaceFindr.jsx';
 import mecsphere from '../../assets/mecsphere.jpg';
 import facefindr from '../../assets/facefindr.jpg';
-import './Project.css';
 
 function Project() {
   const projects = [

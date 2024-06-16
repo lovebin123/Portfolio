@@ -1,7 +1,5 @@
 import React from 'react';
 import { Flex, Image, Text, Modal, ModalBody, ModalContent, ModalCloseButton, ModalOverlay, useDisclosure } from '@chakra-ui/react';
-import './Project.css';
-
 const ProjectCard = ({ imgSrc, projectTitle, projectSubtitle, ModalContentComponent }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
@@ -54,7 +52,7 @@ const ProjectCard = ({ imgSrc, projectTitle, projectSubtitle, ModalContentCompon
               >
                 {projectSubtitle}
               </Text>
-              <Text className='hoverClass' fontSize={'2xl'} color={'white'}>
+              <Text className='hoverClass' lineHeight={'1.5rem'} fontSize={'2xl'} color={'white'}>
                 {projectTitle}
               </Text>
             </Flex>
