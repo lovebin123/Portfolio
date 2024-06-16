@@ -4,13 +4,17 @@ import Landing from '../components/Landing'
 import About from '../components/About'
 import Study from '../components/Study'
 import Project from '../components/Project/Project_1'
+import Topbar from '../components/Topbar'
 function MainPage() {
   return (
-   <Flex gap={32}   h={'100vh'} zIndex={30} background={'black'}  w={'full'} direction={'column'} p={0} pb={1} pt={6} overflowY={'auto'} overflowX={'hidden'} >  
+   <Flex gap={32}   h={'100vh'} zIndex={50} background={'black'}  w={'full'} direction={'column'} p={0} pb={1} pt={6} overflowY={'auto'} overflowX={'hidden'} >  
    <Flex opacity={1} alignItems={'center'} justifyContent={'center'} direction={'column'}>
     <Landing/>
     </Flex>
-    <Flex aspectRatio={11/12} zIndex={20}>
+    <Flex  zIndex={60} opacity={1} transform={'none'}  position={'sticky'} top={0} >
+      <Topbar/>
+    </Flex>
+    <Flex zIndex={40} opacity={1} transform={'none'}>
     <About/>
     </Flex>
     <Flex opacity={1} transform={'none'}>
