@@ -6,7 +6,7 @@ import share from '../../assets/share.png'
 function About() {
   
   return (
-    <Flex w={'full'} h={'full'} direction={'column'} gap={32} zIndex={40} justifyContent={'space-between'}>
+    <Flex w={'full'} h={'full'} direction={'column'} gap={32}  justifyContent={'space-between'}>
 
 
         <Flex justifyContent={'space-between'} px={20}>
