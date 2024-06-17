@@ -1,7 +1,6 @@
 import React from 'react'
 import { Flex, Image, Text, Link } from '@chakra-ui/react'
 import ibm from '../../assets/ibm.png'
-import nptel from '../../assets/nptel.png'
 import programming from '../../assets/programming.png'
 import frontend from '../../assets/frontend.png'
 import server from '../../assets/server.png'
