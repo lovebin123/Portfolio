@@ -7,7 +7,7 @@ function Study() {
   return (
     <Flex direction={'column'} px={20} mt={20} gap={10} mb={5}>
     <Text color={'white'} fontWeight={'bold'} fontSize={'5xl'}>
-        Study
+        Education
     </Text>
     <Flex direction={'column'} alignItems={'center'} gap={3} rounded={'4rem'} overflow={'hidden'} p={10} bgGradient={'linear(to-bl,rgb(15,23,42),rgb(28,25,23))'}>
     <Flex gap={4}>

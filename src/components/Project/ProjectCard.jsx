@@ -28,7 +28,7 @@ const ProjectCard = ({ imgSrc, projectTitle, projectSubtitle, ModalContentCompon
           w={'full'}
         >
           <Image
-            filter={'brightness(50%)'}
+            filter={'brightness(45%)'}
             rounded={'4em'}
             transform={'scaleY(0.87) scaleX(1.02'}
             w={'full'}
