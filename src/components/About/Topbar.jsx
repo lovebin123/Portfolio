@@ -1,6 +1,6 @@
 import React from 'react'
 import { Flex,Text,Image,Link } from '@chakra-ui/react'
-import me from '../assets/me2.jpg'
+import me from '../../assets/me2.jpg'
 
 function Topbar() {
   return (

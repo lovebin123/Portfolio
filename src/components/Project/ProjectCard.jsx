@@ -61,7 +61,7 @@ const ProjectCard = ({ imgSrc, projectTitle, projectSubtitle, ModalContentCompon
         </Flex>
       </Flex>
 
-      <Modal isCentered isOpen={isOpen} size={'6xl'}  onClose={onClose} >
+      <Modal isCentered isOpen={isOpen} size={'5xl'}  onClose={onClose} >
         <ModalOverlay />
         <ModalContent rounded={'4em'}  w={'full'} minH={'100vh'}  bgGradient={'linear(to-bl, rgb(15 23 42), rgb(28 25 23))'}>
           <ModalCloseButton />

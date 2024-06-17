@@ -2,7 +2,7 @@ import { Flex, Image,Text } from '@chakra-ui/react'
 import React from 'react'
 import Typewriter from 'typewriter-effect';
 
-import me from '../assets/me2.jpg'
+import me from '../../assets/me2.jpg'
 function Landing() {
   return (
     <Flex

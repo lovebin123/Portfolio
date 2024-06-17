@@ -1,10 +1,10 @@
 import { Flex,Text } from '@chakra-ui/react'
 import React from 'react'
-import Landing from '../components/Landing'
-import About from '../components/About'
-import Study from '../components/Study'
+import Landing from '../components/Landing/Landing'
+import About from '../components/About/About'
+import Study from '../components/Study/Study'
 import Project from '../components/Project/Project_1'
-import Topbar from '../components/Topbar'
+import Topbar from '../components/About/Topbar'
 function MainPage() {
   return (
    <Flex gap={32}   h={'100vh'} zIndex={50} background={'black'}  w={'full'} direction={'column'} p={0} pb={1} pt={6} overflowY={'auto'} overflowX={'hidden'} >  

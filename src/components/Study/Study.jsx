@@ -1,8 +1,8 @@
 import React from 'react'
 import { Flex,Text,Image, Avatar, Heading } from '@chakra-ui/react'
-import meclogo from '../assets/mec_logo.png'
-import kj from '../assets/kj.png'
-import kjvn from '../assets/kjvn.png'
+import meclogo from '../../assets/mec_logo.png'
+import kj from '../../assets/kj.png'
+import kjvn from '../../assets/kjvn.png'
 function Study() {
   return (
     <Flex direction={'column'} px={20} mt={20} gap={10} mb={5}>
