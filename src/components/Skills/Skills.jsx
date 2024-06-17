@@ -5,6 +5,7 @@ import nptel from '../../assets/nptel.png'
 import programming from '../../assets/programming.png'
 import frontend from '../../assets/frontend.png'
 import server from '../../assets/server.png'
+import techno from '../../assets/technology.png'
 function Skills() {
     return (
         <Flex direction={'column'} px={20} w={'full'} h={'full'} gap={6} mb={5}  >
@@ -137,16 +138,16 @@ function Skills() {
                 </Flex>
                 <Flex  gap={5}   direction={'column'} rounded={'4em'} p={7} overflow={'hidden'} bgGradient={'linear(to-bl,#0f172a,#1c1917)'}>
                 <Flex cursor={'context-menu'} gap={4}>
-                    <Image src={server} h={10}></Image>
+                    <Image src={techno} h={10}></Image>
                     <Flex direction={'column'} gap={5} alignItems={'flex-start'}>
-                        <Text   color={'gray.500'} fontSize={'xl'}>Server Side</Text>
+                        <Text   color={'gray.500'} fontSize={'xl'}>Other Tools</Text>
                         <Flex className='foc' justifyContent={'center'} direction={'column'}  gap={6}>
                         <Flex gap={4}>
                         <Flex className='foc' bgColor={'rgb(19,78,74,0.4)'} px={4} py={2} rounded={'3xl'}>
-                            <Text color={'rgb(45,212,191)'} fontWeight={'bold'} mx={2}>NodeJS</Text>
+                            <Text color={'rgb(45,212,191)'} fontWeight={'bold'} mx={2}>Linux</Text>
                         </Flex>
                         <Flex className='foc' bgColor={'rgb(19,78,74,0.4)'} px={4} py={2} rounded={'3xl'}>
-                            <Text color={'rgb(45,212,191)'} fontWeight={'bold'} mx={2}>Redis</Text>
+                            <Text color={'rgb(45,212,191)'} fontWeight={'bold'} mx={2}>Git</Text>
                         </Flex>
                         
                         </Flex>
@@ -154,7 +155,10 @@ function Skills() {
                         <Flex  alignItems={'center'}  gap={4}>
                         
                         <Flex className='foc' bgColor={'rgb(19,78,74,0.4)'} px={4} py={2} rounded={'3xl'}>
-                            <Text color={'rgb(45,212,191)'} fontWeight={'bold'} mx={2}>Supabase</Text>
+                            <Text color={'rgb(45,212,191)'} fontWeight={'bold'} mx={2}>Selenium</Text>
+                        </Flex>
+                        <Flex className='foc' bgColor={'rgb(19,78,74,0.4)'} px={4} py={2} rounded={'3xl'}>
+                            <Text color={'rgb(45,212,191)'} fontWeight={'bold'} mx={2}>Docker</Text>
                         </Flex>
                         </Flex>
                         </Flex>
