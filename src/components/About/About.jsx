@@ -1,8 +1,6 @@
 import { Avatar, Flex,Image,Link,Text,filter,keyframes } from '@chakra-ui/react'
 import React from 'react'
 import './About.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import gameboy from '../../assets/gameboy3.png'
 import share from '../../assets/share.png'
 function About() {
