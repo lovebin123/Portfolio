@@ -12,8 +12,8 @@ const ProjectCard = ({ imgSrc, projectTitle, projectSubtitle, ModalContentCompon
         justifyContent={'center'}
         _hover={{
           '.topone':{borderColor: '#60a5fa'},
-          '.hoverClass': { color: 'blue.500' },
-          '.bgChanger': { bgColor: '#67e8f9' },
+          '.hoverClass': { color: 'blue.200' },
+          '.bgChanger': { bgColor: ' rgb(56,189,248,0.4)', opacity:20},
         }}
         onClick={onOpen}
       >
@@ -30,9 +30,10 @@ const ProjectCard = ({ imgSrc, projectTitle, projectSubtitle, ModalContentCompon
           <Image
             filter={'brightness(50%)'}
             rounded={'4em'}
-            transform={'scaleX(1.08) scaleY(1.04)'}
+            transform={'scaleY(0.87) scaleX(1.02'}
             w={'full'}
             h={'full'}
+  
             src={imgSrc}
           />
           <Flex position={'absolute'} bottom={4} left={5} >
@@ -42,12 +43,12 @@ const ProjectCard = ({ imgSrc, projectTitle, projectSubtitle, ModalContentCompon
               direction={'column'}
               className='bgChanger'
               w={'4/5'}
-              _hover={{ bgColor: 'blue.200' }}
               rounded={'2em'}
+              bgColor={'rgb(41,37,36,0.3)'}
             >
               <Text
                 position={'relative'}
-                color={'gray.500'}
+                color={'gray.400'}
                 filter={'brightness(120%)'}
               >
                 {projectSubtitle}

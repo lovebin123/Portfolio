@@ -48,7 +48,7 @@ function FaceFindr() {
             </Flex>
             <Flex  mt={8} alignItems={'center'} gap={10}>
             <Text letterSpacing={' 0.050em'} color={'white'}>
-            FaceFindr is a web application designed to help users discover connections between faces in various photos. By uploading images, users can utilize the platform to identify and explore where the same faces appear across different pictures. Built with React JS for the frontend, it ensures a responsive and interactive user experience. The backend relies on Flask to handle server-side logic and API interactions efficiently. Redis is employed for fast in-memory data storage and retrieval, optimizing performance. DeepFace, a powerful face recognition library, is used to detect and match faces accurately across the uploaded images.
+            FaceFindr is a web application designed to help users discover connections between faces in various photos. By uploading images, users can utilize the platform to identify and explore where the same faces appear across different pictures. <br></br><br></br>Built with React JS for the frontend, it ensures a responsive and interactive user experience. The backend relies on Flask to handle server-side logic and API interactions efficiently. Redis is employed for fast in-memory data storage and retrieval, optimizing performance. DeepFace, a powerful face recognition library, is used to detect and match faces accurately across the uploaded images.
     </Text>
     <Carousal  images={images}/>
             </Flex>

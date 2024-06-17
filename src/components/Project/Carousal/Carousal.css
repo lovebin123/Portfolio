@@ -1,14 +1,16 @@
 
   .carousel-images {
-    width: 40vw;
-    height: 42vh;
+    width: 36em;
+    height: 17.94em;
     overflow: hidden;
-    
+    max-height:17.94em;
+    max-width: 36em;
   }
   
   .carousel-image {
     border-radius: 10px;
-    width: 40vw;
+    width: 100%;
+    
   }
   
   .carousel-indicator {
