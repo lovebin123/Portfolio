@@ -16,7 +16,7 @@ function MainPage() {
     <Flex  zIndex={60} opacity={1} transform={'none'}  position={'sticky'} top={0} >
       <Topbar/>
     </Flex>
-    <Flex zIndex={40} opacity={1} transform={'none'}>
+    <Flex opacity={1} transform={'none'}>
     <About/>
     </Flex>
     <Flex opacity={1} transform={'none'}>
@@ -28,7 +28,7 @@ function MainPage() {
     <Flex opacity={1} justifyContent={'center'} transform={'none'}>
       <Skills/>
     </Flex>
-    <Flex opacity={1} transform={'none'}>
+    <Flex opacity={1} justifyContent={'center'} transform={'none'}>
       <Footer/>
     </Flex>
    </Flex>

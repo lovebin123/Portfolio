@@ -1,10 +1,20 @@
 import { Avatar, Flex,Image,Link,Text,filter,keyframes } from '@chakra-ui/react'
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import './About.css'
 import gameboy from '../../assets/gameboy3.png'
 import share from '../../assets/share.png'
+import { useAnimation, useInView,motion, useScroll, AnimatePresence } from 'framer-motion'
 function About() {
-  
+  const AboutRef=useRef(null)
+  const AboutInView=useInView(AboutRef,{once:false})
+const AboutControls=useAnimation()
+useEffect(() => {
+  if (AboutInView) {
+    AboutControls.start('visible');
+  }
+
+}, [AboutInView]);
+
   return (
     <Flex w={'full'} h={'full'} direction={'column'} gap={32}  justifyContent={'space-between'}>
 
@@ -16,8 +26,12 @@ function About() {
           Now, I'm driven to use my expertise to create innovative solutions and make a meaningful impact in the tech world. I'm passionate about collaborating with others to bring new ideas to life. In my free time, I enjoy experimenting with new technologies and learning about the latest advancements in the field. My ultimate goal is to make a lasting difference through technology
           </Text>
         </Flex>
-        <Flex overflow={'hidden'} position={'relative'}   justifyContent={'flex-end'} >
+        <Flex  overflow={'hidden'} position={'relative'}   justifyContent={'flex-end'} >
+        <AnimatePresence>
+        <motion.div ref={AboutRef}  variants={{"hidden":{y:-200},"visible":{y:0}}} transition={{delay:1.2,duration:0.8}} initial="hidden" exit={{y:-100}}  animate={AboutControls}>
       <Image  filter={"brightness(100%) "} className='gameboy'  w={'50rem'} src={gameboy} position={'relative'} left={80}></Image>
+      </motion.div>
+      </AnimatePresence>
       <Text as={'sub'} color={'gray.500'}  transform={'rotate(90deg) translateY(270px)'}  >20's kids Nostalgia</Text>
       </Flex>
         </Flex>
