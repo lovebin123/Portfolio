@@ -12,14 +12,14 @@ import airbnb from '../../assets/airbnb.jpg'
 import './Project.css'
 import { motion,useInView,useAnimation} from "framer-motion"
 function Project() {
-  const ref=useRef(null)
-  const inView=useInView(ref,{once:true})
+  const projRef=useRef(null)
+  const projInView=useInView(projRef,{once:true})
 const projectControls=useAnimation()
 useEffect(() => {
-  if (inView) {
+  if (projInView) {
     projectControls.start('visible');
   }
-}, [inView]);
+}, [projInView]);
 
   const projects = [
     {
@@ -55,8 +55,8 @@ useEffect(() => {
       </Text>
       <Flex className='containers' flexWrap={'wrap'}  mt={6}>
         {projects.map((project, index) => (
-          <Flex ref={ref} key={index} position={'relative'} flex={'0 0 33.3333%'} mb={10}   >
-          <motion.div style={{display:'flex',justifyContent:'center'}} variants={{"hidden":{translateY:100},"visible":{translateY:0}}} initial="hidden" animate={projectControls} >
+          <Flex ref={projRef} key={index} position={'relative'} flex={'0 0 33.3333%'} mb={10}   >
+          <motion.div style={{display:'flex',justifyContent:'center'}} variants={{"hidden":{translateY:100},"visible":{translateY:0}}} transition={{delay:0.4,duration:0.8}} initial="hidden" animate={projectControls} >
             <ProjectCard
               imgSrc={project.imgSrc}
               projectTitle={project.projectTitle}
