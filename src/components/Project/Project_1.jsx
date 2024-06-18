@@ -46,6 +46,7 @@ function Project() {
       <Flex className='containers' flexWrap={'wrap'}  mt={6}>
         {projects.map((project, index) => (
           <Flex  key={index} position={'relative'} flex={'0 0 33.3333%'} mb={10}   >
+          
             <ProjectCard
               imgSrc={project.imgSrc}
               projectTitle={project.projectTitle}

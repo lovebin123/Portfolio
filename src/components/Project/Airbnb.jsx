@@ -8,8 +8,8 @@ function Airbnb() {
     const images=[air1,air2,air3]
   return (
     <Flex px={4}   direction={'column'} mt={8}>
-    <Text color={'#60a5fa'}>Personal Project</Text>
-    <Text color={'white'} fontSize={'4xl'}>Airbnb Clone</Text>
+    <Text cursor={'context-menu'} color={'#60a5fa'}>Personal Project</Text>
+    <Text cursor={'context-menu'} color={'white'} fontSize={'4xl'}>Airbnb Clone</Text>
     <Flex gap={6}>
     <Link _hover={{textDecoration:'none'}} href='https://github.com/lovebin123/airbnbclone' isExternal>
     <Flex w={24} cursor={'pointer'} bgColor={' rgb(30 41 59)'} _hover={{bgColor:'rgb(7 89 133)',}} h={12} px={3} py={2} alignItems={'center'} mt={4} rounded={10}>
@@ -26,7 +26,7 @@ function Airbnb() {
     </Link>
     </Flex>
 
-    <Flex gap={4} mt={6}>
+    <Flex cursor={'context-menu'} gap={4} mt={6}>
       <Flex rounded={'full'} bgColor={'#134e4a'} opacity={40} px={4} py={2} mt={2} fontWeight={'bold'}>
         <Text color={'#2dd4bf'}>ReactJS</Text>
       </Flex>
