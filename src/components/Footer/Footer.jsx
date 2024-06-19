@@ -9,10 +9,10 @@ function Footer() {
     <Flex   direction={'column'} mt={20} >
     <Flex  direction={'column'} gap={3}>
     <Flex  direction={'column'}>
-      <Text letterSpacing={'0.1em'} color={'white'} textAlign={'center'}>Developed by</Text>
-      <Text letterSpacing={'0.1em'} color={'white'} textAlign={'center'}>Lovebin Joseph Robin</Text>
+      <Text fontSize={'2xl'}  letterSpacing={'0.1em'} color={'rgb(56 189 248)'} textAlign={'center'}>Developed by</Text>
+      <Text fontSize={'xl'} letterSpacing={'0.1em'} color={'rgb(56 189 248)'} textAlign={'center'}>Lovebin Joseph Robin</Text>
     </Flex>
-  <Flex direction={'row'} justifyContent={'space-evenly'} mt={5}>
+  <Flex direction={'row'} justifyContent={'space-evenly'} mt={10}>
   <Flex direction={'column'} gap={8}>
     <Text color={'white'}>Helpful Links</Text>
     <Flex direction={'column'} gap={2}>

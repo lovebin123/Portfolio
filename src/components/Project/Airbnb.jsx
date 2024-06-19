@@ -27,13 +27,13 @@ function Airbnb() {
     </Flex>
 
     <Flex cursor={'context-menu'} gap={4} mt={6}>
-      <Flex rounded={'full'} bgColor={'#134e4a'} opacity={40} px={4} py={2} mt={2} fontWeight={'bold'}>
+      <Flex rounded={'full'} bgColor={'rgb(19,78,74,0.4)'} opacity={40} px={4} py={2} mt={2} fontWeight={'bold'}>
         <Text color={'#2dd4bf'}>ReactJS</Text>
       </Flex>
-      <Flex rounded={'full'} bgColor={'#134e4a'} opacity={40} px={4} py={2} mt={2} fontWeight={'bold'}>
+      <Flex rounded={'full'} bgColor={'rgb(19,78,74,0.4)'} opacity={40} px={4} py={2} mt={2} fontWeight={'bold'}>
         <Text color={'#2dd4bf'}>Material UI</Text>
       </Flex>
-      <Flex rounded={'full'} bgColor={'#134e4a'} opacity={40} px={4} py={2} mt={2} fontWeight={'bold'}>
+      <Flex rounded={'full'} bgColor={'rgb(19,78,74,0.4)'} opacity={40} px={4} py={2} mt={2} fontWeight={'bold'}>
         <Text color={'#2dd4bf'}>Slick Carousal</Text>
       </Flex>
 

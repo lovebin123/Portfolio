@@ -56,7 +56,7 @@ useEffect(() => {
       <Flex className='containers' flexWrap={'wrap'}  mt={6}>
         {projects.map((project, index) => (
           <Flex ref={projRef} key={index} position={'relative'} flex={'0 0 33.3333%'} mb={10}   >
-          <motion.div style={{display:'flex',justifyContent:'center'}} variants={{"hidden":{translateY:200},"visible":{translateY:0}}} transition={{delay:0.4,duration:0.8}} initial="hidden" animate={projectControls} >
+          <motion.div style={{display:'flex',justifyContent:'center'}} variants={{"hidden":{translateY:200},"visible":{translateY:0}}} transition={{delay:0.4,duration:0.8,type:'tween'}} initial="hidden" animate={projectControls} >
             <ProjectCard
               imgSrc={project.imgSrc}
               projectTitle={project.projectTitle}
