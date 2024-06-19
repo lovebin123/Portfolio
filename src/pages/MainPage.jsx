@@ -16,19 +16,19 @@ function MainPage() {
     <Flex  zIndex={60} opacity={1} transform={'none'}  position={'sticky'} top={0} >
       <Topbar/>
     </Flex>
-    <Flex opacity={1} transform={'none'}>
+    <Flex id='About' opacity={1} transform={'none'}>
     <About/>
     </Flex>
-    <Flex opacity={1} transform={'none'}>
+    <Flex id='Education' opacity={1} transform={'none'}>
       <Study/>
     </Flex>
-    <Flex opacity={1} transform={'none'}>
+    <Flex id='Projects' opacity={1} transform={'none'}>
       <Project/>
     </Flex>
-    <Flex opacity={1} justifyContent={'center'} transform={'none'}>
+    <Flex id='Skills' opacity={1} justifyContent={'center'} transform={'none'}>
       <Skills/>
     </Flex>
-    <Flex opacity={1} justifyContent={'center'} transform={'none'}>
+    <Flex opacity={1} textAlign={'center'} direction={'column'} transform={'none'}>
       <Footer/>
     </Flex>
    </Flex>

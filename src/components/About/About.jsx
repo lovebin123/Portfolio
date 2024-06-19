@@ -9,6 +9,7 @@ function About() {
   const AboutRef = useRef(null);
   const { scrollYProgress } = useScroll({
     container: AboutRef,
+    offset:["start end","end start"]
   });
   const y = useTransform(scrollYProgress, [1,0.75], [450, -480]);
   const AboutInView = useInView(AboutRef, { once: false });
@@ -35,7 +36,7 @@ function About() {
         </Flex>
         <Flex overflow={'hidden'} position={'relative'} justifyContent={'flex-end'}>
           <AnimatePresence>
-            <motion.div style={{ y }} variants={{ hidden: { y: -200 }, visible: { y: 0 } }} transition={{ delay: 0.5, duration: 0.8,ease:'linear' }} initial="hidden" exit={{ y: -100 }} animate={AboutControls}>
+            <motion.div style={{ y }} variants={{ hidden: { y: -200 }, visible: { y: 0 } }} transition={{ delay: 0.5, duration: 0.8, }} initial="hidden" exit={{ y: -100 }} animate={AboutControls}>
               <Image filter={"brightness(100%)"} className='gameboy' w={'50rem'} src={gameboy} position={'relative'} left={80} />
             </motion.div>
           </AnimatePresence>

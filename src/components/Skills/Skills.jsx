@@ -54,7 +54,7 @@ function Skills() {
                 <SkillCategory
                     icon={server}
                     title="Server Side"
-                    skills={['NodeJS', 'Redis', 'Supabase']}
+                    skills={['NodeJS', 'Redis', 'Supabase','Flask']}
                 />
                 <SkillCategory
                     icon={techno}
