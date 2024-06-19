@@ -1,0 +1,7 @@
+/* Landing.css */
+.square {
+    will-change: transform, box-shadow;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+    perspective: 100px;
+  }
+  

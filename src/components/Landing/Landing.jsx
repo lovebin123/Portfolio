@@ -1,12 +1,30 @@
 import { Flex, Image,Text } from '@chakra-ui/react'
-import React from 'react'
+import React, { useEffect } from "react";
+import { useAnimation, motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 import Typewriter from 'typewriter-effect';
 
 import me from '../../assets/me2.jpg'
 function Landing() {
+  const squareVariants = {
+    visible: { opacity: 1, scale: 1, transition: { duration: 1 } },
+    hidden: { opacity: 0, scale: 0 }
+  };
+  const controls=useAnimation()
+  const [ref,inView]=useInView({
+    threshold:0.2
+  })
+  useEffect(() => {
+    if (inView) {
+      controls.start("visible");
+    }
+  }, [controls, inView]);
+  
   return (
-    <Flex
-     gap={6} _hover={{borderColor:'blue'}} position={'relative'} border={1} bottom={2} right={1} width={'98vw'}  direction={'column'}   justifyContent={'center'} height={'96vh'} backdropFilter={'blur(4px)'} bgGradient={'linear(to-bl,rgb(30 41 59),rgb(41 37 36))'} rounded={'4rem'}>
+    <motion.div ref={ref} animate={controls} initial="hidden" variants={squareVariants}>
+
+    <Flex 
+     gap={6}  className='square' position={'relative'} border={1} bottom={2} right={1} width={'98vw'}  direction={'column'}   justifyContent={'center'} height={'96vh'} backdropFilter={'blur(4px)'} bgGradient={'linear(to-bl,rgb(30 41 59),rgb(41 37 36))'} rounded={'4rem'}>
   <Flex 
    direction={'column'} justifyContent={'center'} alignItems={'center'}>
    <Image objectFit={'cover'} src={me} w={64} height={64} rounded={'4rem'}/>
@@ -20,6 +38,8 @@ function Landing() {
     </Text>
     </Flex>
     </Flex>
+    </motion.div>
+
   )
 }
 
