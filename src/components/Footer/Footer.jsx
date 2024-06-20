@@ -30,9 +30,9 @@ function Footer() {
    </Link>
     </Flex>
   </Flex>
-  <Flex direction={'column'}>
-    <Text textAlign={'center'} letterSpacing={'0.1em'} color={'white'} mt={5}>Made With</Text>
-    <Flex gap={3} alignItems={'center'} justifyContent={'start'}>
+  <Flex justifyContent={'center'} alignItems={'center'} direction={'column'}>
+    <Text pl={4}  letterSpacing={'0.1em'} color={'white'} mt={5}>Made With</Text>
+    <Flex gap={3}>
     </Flex>
     <Flex justifyContent={'center'} gap={3} alignItems={'center'}>
         <Image src={reactim} h={12}/>

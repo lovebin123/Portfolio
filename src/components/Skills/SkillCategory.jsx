@@ -11,7 +11,7 @@ const SkillCategory = ({ icon, title, skills }) => {
         animate:(skillIndex)=>({
             opacity: 1,y:0,
             transition:{
-                delay:0.05*skillIndex
+                delay:0.03*skillIndex
             }
         }),
       }
