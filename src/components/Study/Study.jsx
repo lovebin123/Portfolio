@@ -41,7 +41,7 @@ const kjvnControls=useAnimation()
     <Flex direction={'column'} gap={24}>
     <Flex direction={'column'} alignItems={'center'} gap={8} rounded={'4rem'} overflow={'hidden'} p={10} bgGradient={'linear(to-bl,rgb(15,23,42),rgb(28,25,23))'}>
     <Flex gap={4}>
-        <Image filter={'contrast(130%) brightness(130%)'} src={meclogo} boxSize={20} objectFit={'contain'} borderRadius={'50%'}/>
+        <Image filter={'contrast(100%) brightness(110%)'} src={meclogo} boxSize={20} objectFit={'contain'} borderRadius={'50%'}/>
         <Flex direction={'column'} >
         <Flex gap={4} alignItems={'center'}>
             <Text color={'#60a5fa'} fontSize={'xl'} fontWeight={'semibold'}>Graduation</Text>
