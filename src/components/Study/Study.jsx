@@ -34,7 +34,7 @@ const kjvnControls=useAnimation()
   }, [kjvnInView]);
 
   return (
-    <Flex direction={'column'} justifyContent={'center'} px={20} mt={20} gap={10} mb={5}>
+    <Flex cursor={'context-menu'} direction={'column'} justifyContent={'center'} px={20} mt={20} gap={10} mb={5}>
     <Text color={'white'} fontWeight={'bold'} fontSize={'5xl'}>
         Education
     </Text>

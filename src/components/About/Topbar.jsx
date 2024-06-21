@@ -4,7 +4,7 @@ import me from '../../assets/me2.jpg'
 
 function Topbar() {
   return (
-    <Flex py={5} w={'full'} h={'full'}  justifyContent={'space-between'} px={20} bgColor={'black'} gap={32} zIndex={40}>
+    <Flex cursor={'context-menu'} py={5} w={'full'} h={'full'}  justifyContent={'space-between'} px={20} bgColor={'black'} gap={32} zIndex={40}>
     <Flex   alignItems={'center'} gap={3}>
     <Image objectFit={'cover'} src={me} w={20} height={20} rounded={'1rem'}/>
       <Text fontSize={'2xl'} display={'inline-block'} whiteSpace={'nowrap'} color={'white'}>LOVEBIN JOSEPH ROBIN</Text>

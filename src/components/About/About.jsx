@@ -22,7 +22,7 @@ function About() {
   }, [AboutInView]);
 
   return (
-    <Flex w={'full'} h={'full'} direction={'column'} gap={32} justifyContent={'space-between'} ref={AboutRef}>
+    <Flex cursor={'context-menu'}  w={'full'} h={'full'} direction={'column'} gap={32} justifyContent={'space-between'} ref={AboutRef}>
       <Flex justifyContent={'space-between'} px={20}>
         <Flex w={'30rem'} h={100}>
           <Text color={'white'} fontStyle={'light'} lineHeight={1.625} fontSize={'xl'}>
