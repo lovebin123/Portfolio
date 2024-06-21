@@ -7,7 +7,7 @@ import secondprize from '../../assets/second-prize.png'
 import thirdprize from '../../assets/3rd-place.png'
 function Awards() {
   return (
-    <Flex direction={'column'} gap={10} px={4} justifyContent={'center'} alignItems={'center'}>
+    <Flex direction={'column'} mt={5} gap={10} px={4} justifyContent={'center'} alignItems={'center'}>
         <Text  color={'white'} fontWeight={'bold'} fontSize={'5xl'}>
         Achievements
     </Text>
