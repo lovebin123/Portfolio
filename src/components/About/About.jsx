@@ -25,7 +25,7 @@ function About() {
     <Flex cursor={'context-menu'}  w={'full'} h={'full'} direction={'column'} gap={32} justifyContent={'space-between'} ref={AboutRef}>
       <Flex justifyContent={'space-between'} px={20}>
         <Flex w={'30rem'} h={100}>
-          <Text color={'white'} fontStyle={'light'} lineHeight={1.625} fontSize={'xl'}>
+          <Text color={'white'} fontStyle={'light'} lineHeight={1.625} fontSize={['lg','xl']}>
             Growing up in {' '}
             <Link color={'#60a5fa'} isExternal href='https://en.wikipedia.org/wiki/Kottayam' style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center' }}>
               Kottayam<Image src={share} height={5} />
