@@ -8,10 +8,10 @@ const SkillCategory = ({ icon, title, skills }) => {
     const rows = [[], [], []]; // Initialize rows for 3 rows and 2 columns
     const variants = {
         initial: { opacity: 0,y:55},
-        animate:(skillIndex)=>({
+        animate:()=>({
             opacity: 1,y:0,
             transition:{
-                delay:0.03*skillIndex
+                delay:0.5
             }
         }),
       }
