@@ -42,6 +42,9 @@ function FaceFindr() {
               <Flex rounded={'full'} bgColor={'rgb(19,78,74,0.4)'} px={4} py={2} mt={2} fontWeight={'bold'}>
                 <Text color={'#2dd4bf'}>Redis</Text>
               </Flex>
+              <Flex rounded={'full'} bgColor={'rgb(19,78,74,0.4)'} px={4} py={2} mt={2} fontWeight={'bold'}>
+                <Text color={'#2dd4bf'}>Node JS</Text>
+              </Flex>
               <Flex rounded={'full'} bgColor={'rgb(19,78,74,0.4)'}px={4} py={2} mt={2} fontWeight={'bold'}>
                 <Text color={'#2dd4bf'}>DeepFace</Text>
               </Flex>
