@@ -12,7 +12,7 @@ function Footer() {
       <Text fontSize={'2xl'}  letterSpacing={'0.1em'} color={'rgb(56 189 248)'} textAlign={'center'}>Developed by</Text>
       <Text fontFamily={'sans-serif'} fontSize={'2xl'} letterSpacing={'0.1em'} color={'rgb(56 189 248)'} textAlign={'center'}>𝐿𝑜𝓋𝑒𝒷𝒾𝓃 𝑅𝑜𝒷𝒾𝓃</Text>
     </Flex>
-  <Flex direction={'row'} justifyContent={'space-around'} mt={10}>
+  <Flex direction={'row'} justifyContent={'space-evenly'} mt={10}>
   <Flex direction={'column'} gap={5}>
     <Text color={'white'}>Helpful Links</Text>
     <Flex direction={'column'} gap={2}>

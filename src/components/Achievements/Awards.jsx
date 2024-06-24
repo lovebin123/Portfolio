@@ -27,7 +27,7 @@ function Awards() {
     <Flex direction={'column'} gap={16} justifyContent={'flex-start'} flexFlow={'column'}>
     <Flex filter={'brightness(90%)'} rounded={'4rem'} w={'14rem'} h={'12rem'} direction={'column'} gap={3} backgroundColor={'rgb(12, 74, 110,0.4)'} justifyContent={'center'} alignItems={'center'}>
         <Image src={thirdprize} h={12} w={12} />
-        <Text fontSize={'sm'} color={'#38bdf8'} textAlign={'center'} display={'inline-block'} inlineSize={140}>Third Prize in Ozone 3.0, conducted by TLE MEC</Text>
+        <Text fontSize={'sm'} color={'#38bdf8'} textAlign={'center'} display={'inline-block'} inlineSize={140}>Third Prize in Ozone 3.0 conducted by TLE MEC</Text>
     </Flex>
     <Flex filter={'brightness(90%)'} rounded={'4rem'} w={'14rem'} h={'12rem'} direction={'column'} gap={3} backgroundColor={'rgb(12, 74, 110,0.4)'} justifyContent={'center'} alignItems={'center'}>
         <Image src={thirdprize} h={12} w={12} />
