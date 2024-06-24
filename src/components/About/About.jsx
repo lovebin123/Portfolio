@@ -8,10 +8,10 @@ import { useAnimation, useInView, motion, useScroll, AnimatePresence, useTransfo
 function About() {
   const AboutRef = useRef(null);
   const { scrollYProgress } = useScroll({
-    container: AboutRef,
-    offset:["start end","end start"]
+    target:AboutRef
+
   });
-  const y = useTransform(scrollYProgress, [1,0.75], [450, -480]);
+  const y = useTransform(scrollYProgress, [1,0.75], [-450, 120]);
   const AboutInView = useInView(AboutRef, { once: false });
   const AboutControls = useAnimation();
 
