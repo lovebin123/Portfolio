@@ -28,12 +28,13 @@ function Footer() {
    <Link _hover={{textDecoration:'none'}} href='#Skills' color={'white'}>
    <Text color={'white'}>Skills</Text>
    </Link>
+   <Link _hover={{textDecoration:'none'}} href='#Achievements' color={'white'}>
+   <Text color={'white'}>Achievements</Text>
+   </Link>
     </Flex>
   </Flex>
-  <Flex justifyContent={'center'} alignItems={'center'} direction={'column'}>
+  <Flex justifyContent={'center'} alignItems={'center'} direction={'column'} pl={5}>
     <Text pl={4}  letterSpacing={'0.1em'} color={'white'} mt={5}>Made With</Text>
-    <Flex gap={3}>
-    </Flex>
     <Flex justifyContent={'center'} gap={3} alignItems={'center'}>
         <Image src={reactim} h={12}/>
         <Image src='https://img.icons8.com/color/48/chakra-ui.png' h={12}/>
