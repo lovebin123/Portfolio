@@ -59,7 +59,7 @@ function Skills() {
                 <SkillCategory
                     icon={techno}
                     title="Other Tools"
-                    skills={['Linux', 'Git', 'Selenium', 'Docker']}
+                    skills={['Linux', 'Git', 'Selenium', 'Docker','Langchain']}
                 />
             </Flex>
         </Flex>
