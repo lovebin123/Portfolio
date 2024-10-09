@@ -40,7 +40,7 @@ function About() {
               <Image filter={"brightness(100%)"} className='gameboy' w={'50rem'} src={gameboy} position={'relative'} left={80} />
             </motion.div>
           </AnimatePresence>
-          <Text as={'sub'} color={'gray.500'} transform={'rotate(90deg) translateY(270px)'}>20's kids Nostalgia</Text>
+          <Text as={'sub'} color={'gray.500'} transform={'rotate(90deg) translateY(16.875rem)'}>20's kids Nostalgia</Text>
         </Flex>
       </Flex>
     </Flex>
