@@ -31,7 +31,7 @@ function Landing() {
     <Text fontSize={'5xl'} fontStyle={'light'} color={'white'} fontWeight={'bold'}>LOVEBIN JOSEPH ROBIN</Text>
     <Text brightness={'40%'} contrast={'0%'} color={'#60a5fa'} letterSpacing={'0.025em'} fontSize={'3xl'} textAlign={'match-parent'}>
        <Typewriter options={{
-        strings:['Tech Enthusiast','Frontend Developer'],
+        strings:['Tech Enthusiast','Fullstack Developer'],
         autoStart:true,
         loop:true
        }}/>
